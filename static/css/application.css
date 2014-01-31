@@ -1,0 +1,140 @@
+@import url(../lib/bootstrap/3.0.2/css/bootstrap.css);
+html {
+  height: 100%; }
+
+/**
+ * Generic System Defaults
+ */
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #f2f2f2;
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  /** NEED FOR IE **/
+  margin: 0;
+  padding: 0; }
+
+p {
+  margin: 0px; }
+
+.container {
+  width: 100%;
+  padding: 0px; }
+
+.row {
+  margin-right: 0px;
+  margin-left: 0px; }
+
+.site-header {
+  background-color: #FFFFFF;
+  box-shadow: 0 0 5px #404040;
+  left: 0;
+  min-height: 60px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 2; }
+
+.navigation li {
+  list-style-type: none; }
+
+.brand-container {
+  float: left;
+  margin: 0px 54px 0px;
+  padding: 0; }
+
+.brand {
+  display: block;
+  font-weight: 200;
+  font-size: 16px;
+  line-height: 1.2;
+  letter-spacing: .07em;
+  margin: 24px 35px;
+  text-transform: uppercase;
+  z-index: 5; }
+
+nav {
+  float: right;
+  padding: 16px 30px;
+  margin: 0px 15px 0px;
+  width: 25%; }
+
+.nav a {
+  color: #434343;
+  font-weight: 200;
+  font-size: 16px;
+  line-height: 1.2;
+  letter-spacing: .07em;
+  text-decoration: none; }
+
+.nav .open > a .caret,
+.nav .open > a:hover .caret,
+.nav .open > a:focus .caret,
+.nav .caret,
+.nav a:hover .caret {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  margin-left: 2px;
+  margin-top: -3px;
+  vertical-align: middle;
+  border-top: 5px solid #f2f2f2;
+  border-right: 5px solid transparent;
+  border-left: 5px solid transparent; }
+
+.nav > li > a:hover,
+.nav > li > a:focus,
+.nav > li.active a,
+.nav .open > a,
+.nav .open > a:hover,
+.nav .open > a:focus {
+  color: gray;
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  text-decoration: none; }
+
+.navbar-collapse {
+  padding-right: 0;
+  padding-left: 0;
+  border-top: 0;
+  box-shadow: 0 0 0; }
+
+a {
+  color: #434343;
+  text-decoration: none; }
+
+a:hover {
+  color: #B3B3B3;
+  text-decoration: none; }
+
+/* nav */
+.design-content {
+  margin-top: 126px; }
+
+.img_caption {
+  text-align: center;
+  font-size: 14px;
+  letter-spacing: .25px;
+  padding: 18px 0px;
+  margin: 2px 20px 0px 0px;
+  color: #4a4949; }
+
+.description {
+  font-size: 12px;
+  margin: 0px; }
+
+.project {
+  margin-top: 48px; }
+
+.site-footer {
+  background-color: #FFFFFF;
+  color: #d5d4d4;
+  padding: 32px 40px; }
+
+.site-footer .copyright {
+  border-top: 1px dotted #404040;
+  margin-top: 24px;
+  padding-top: 24px;
+  padding-bottom: 16px; }
