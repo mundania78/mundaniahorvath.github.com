@@ -127,6 +127,10 @@ a:hover {
 }
 /* nav */
 
+img {
+  max-width: 100%;
+}
+
 .design-content {
   margin-top: 126px;
 }
@@ -160,6 +164,16 @@ a:hover {
   margin-top: 24px;
   padding-top: 24px;
   padding-bottom: 16px; 
+}
+
+@media (max-width: 767px) {
+  body {
+    padding-right:0px;
+    padding-left:0px;}
+
+  img {
+  	max-width: 90%;
+  }
 }
 
 
