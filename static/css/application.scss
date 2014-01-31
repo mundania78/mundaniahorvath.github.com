@@ -22,6 +22,10 @@ p {
   margin: 0px;
 }
 
+img {
+  max-width: 100%;
+}
+
 .container {
   width: 100%;
   padding: 0px;
@@ -127,6 +131,7 @@ a:hover {
 }
 /* nav */
 
+
 img {
   max-width: 100%;
 }
@@ -135,7 +140,7 @@ img {
   margin-top: 126px;
 }
 
-.img_caption {
+.caption {
   text-align: center;
   font-size: 14px;
   letter-spacing: .25px;
@@ -166,15 +171,6 @@ img {
   padding-bottom: 16px; 
 }
 
-@media (max-width: 767px) {
-  body {
-    padding-right:0px;
-    padding-left:0px;}
-
-  img {
-  	max-width: 90%;
-  }
-}
 
 
 
