@@ -24,6 +24,7 @@ h2.project-titles {
   font-size: 21px;
   text-align: center;
   margin-bottom: 26px;
+  margin-top: 48px;
   letter-spacing: .05em;
 }
 
@@ -54,6 +55,20 @@ img {
   top: 0;
   width: 100%;
   z-index: 2;
+}
+
+.intro-content {
+  background-color: #D75A5A;
+  max-width: 100%;
+}
+
+.intro-content p {
+  color: white;
+  font-weight: 200;
+  font-size: 24px;
+  margin: 90px 25px;
+  padding: 30px 16px 0px;
+  text-align: left;
 }
 
 .navigation li {
@@ -141,12 +156,9 @@ a:hover {
 /* nav */
 
 
-img {
-  max-width: 100%;
-}
 
 .design-content {
-  margin-top: 126px;
+  margin-top: 90px;
 }
 
 .caption {
@@ -159,12 +171,17 @@ img {
 }
 
 .description {
-  font-size: 12px;
-  margin: 0px;
+  color: #737272;
+  font-size: 14px;
+  margin: 0px 0px 25px;
 }
 
 .project {
   margin-top: 48px;
+}
+
+.ind-slide {
+  margin-top: 105px;
 }
 
 .site-footer {
