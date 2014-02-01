@@ -197,6 +197,16 @@ a:hover {
   padding-bottom: 16px; 
 }
 
+@media (max-width: 768px){ 
+  .project img {
+    width: 100%;
+  }
+  img.ind-slide  {
+    width: 100%;
+    margin-top: 65px;
+  }
+}
+
 
 
 
