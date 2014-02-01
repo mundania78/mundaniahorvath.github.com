@@ -18,10 +18,13 @@ body {
   padding: 0;
 }
 
-h2 {
+h2.project-titles {
+  color: #737272;
+  font-weight: 200;
+  font-size: 21px;
   text-align: center;
-  font-size: 24px;
-  color: red;
+  margin-bottom: 26px;
+  letter-spacing: .05em;
 }
 
 p {
