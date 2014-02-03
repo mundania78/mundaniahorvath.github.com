@@ -134,7 +134,7 @@ a:hover {
   color: #737272;
   font-size: 14px;
   line-height: 1;
-  margin: 0px; }
+  margin-bottom: 34px; }
 
 .project {
   margin-top: 48px; }
@@ -142,11 +142,30 @@ a:hover {
 .ind-slide {
   margin-top: 62px; }
 
+.project-navigation {
+  background-color: black;
+  min-height: 72px;
+  text-align: center; }
+
+.project-navigation a {
+  text-align: center; }
+
+.project_button_next .glyphicon {
+  font-weight: normal;
+  font-size: 34px;
+  color: #FFFFFF;
+  margin: 16px 62px; }
+
+.project_button_previous .glyphicon {
+  font-weight: normal;
+  font-size: 34px;
+  color: #FFFFFF;
+  margin: 16px 62px; }
+
 .site-footer {
   background-color: #FFFFFF;
   color: #d5d4d4;
-  padding: 32px 40px;
-  margin: 36px 0px; }
+  padding: 32px 40px; }
 
 @media (max-width: 768px) {
   .project img {
