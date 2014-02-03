@@ -133,7 +133,8 @@ a:hover {
 .description {
   color: #737272;
   font-size: 14px;
-  margin: 0px 0px 25px; }
+  line-height: 1;
+  margin: 0px; }
 
 .project {
   margin-top: 48px; }
@@ -153,4 +154,4 @@ a:hover {
 
   img.ind-slide {
     width: 100%;
-    margin-top: 65px; } }
+    margin-top: 32px; } }
