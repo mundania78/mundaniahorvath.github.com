@@ -171,6 +171,28 @@ a:hover {
   .project img {
     width: 100%; }
 
+  .navbar-toggle {
+    margin-top: 20px;
+    position: relative;
+    top: 0px;
+    right: 12px;
+    background-color: #FFFFFF;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 2px; }
+
+  .navbar-collapse {
+    clear: both; }
+
+  .site-header nav {
+    width: 100%; }
+
   img.ind-slide {
     width: 100%;
-    margin-top: 32px; } }
+    margin-top: 32px; }
+
+  .icon-bar {
+    display: block;
+    width: 22px;
+    height: 2px;
+    background-color: black; } }
