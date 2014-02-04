@@ -91,6 +91,10 @@ img {
   z-index: 5;
 }
 
+.brand-container a {
+  color: rgb(44, 190, 193);
+}
+
 
 nav {
   float: right;
@@ -205,9 +209,19 @@ a:hover {
   .project img {
     width: 100%;
   }
+
+  .brand {
+    margin: 24px 0px;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: .05em;
+    text-transform: uppercase;
+    z-index: 5;
+}
   
   .navbar-toggle {
-     margin-top: 20px;
+     margin-top: 16px;
      position: relative;
      top: 0px;
      right: 12px;
