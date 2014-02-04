@@ -9,7 +9,7 @@ html {
  */
 
 body {
-  font-family: 'Helvetica', Arial, sans-serif;
+  font-family: 'Source Sans Pro', arial, helvetica, sans-serif;
   background-color: rgb(242,242,242);
   min-height: 100%;
   height: auto !important;
@@ -150,10 +150,18 @@ a:hover {
 
 .caption {
   text-align: center;
+  font-size: 16px;
+  margin-top: 16px;
+  font-weight: 400;
+  line-height: 2;
+  letter-spacing: .05em;
+  color: rgb(74, 73, 73);
+}
+
+.sub-caption {
+  text-align: center;
   font-size: 14px;
-  letter-spacing: .25px;
-  padding: 18px 0px;
-  margin: 2px 20px 0px 0px;
+  letter-spacing: .05em;
   color: rgb(74, 73, 73);
 }
 
@@ -165,7 +173,7 @@ a:hover {
 }
 
 .project {
-  margin-top: 48px;
+  margin-top: 25px;
 }
 
 .ind-slide {
