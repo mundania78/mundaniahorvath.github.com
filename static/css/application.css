@@ -122,7 +122,8 @@ a:hover {
 
 /* nav */
 .design-content {
-  margin-top: 90px; }
+  margin-top: 90px;
+  margin-bottom: 90px; }
 
 .caption {
   text-align: center;
