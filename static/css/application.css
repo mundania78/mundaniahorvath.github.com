@@ -15,6 +15,9 @@ body {
   margin: 0;
   padding: 0; }
 
+body.homeowners-guide {
+  background-color: #DEDCDC; }
+
 h2.project-titles {
   color: #434343;
   font-weight: 200;
