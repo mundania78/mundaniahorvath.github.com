@@ -16,7 +16,7 @@ body {
   padding: 0; }
 
 h2.project-titles {
-  color: #737272;
+  color: #434343;
   font-weight: 200;
   font-size: 21px;
   text-align: center;
@@ -126,7 +126,7 @@ a:hover {
   margin-bottom: 90px; }
 
 .caption {
-  text-align: center;
+  vertical-align: middle;
   font-size: 16px;
   margin-top: 16px;
   font-weight: 400;
@@ -134,17 +134,15 @@ a:hover {
   letter-spacing: .05em;
   color: #4a4949; }
 
-.sub-caption {
-  text-align: center;
-  font-size: 14px;
-  letter-spacing: .05em;
-  color: #4a4949; }
-
 .description {
-  color: #737272;
+  color: #434343;
   font-size: 14px;
-  line-height: 1;
-  margin-bottom: 34px; }
+  line-height: 1.75;
+  margin-bottom: 34px;
+  letter-spacing: .05em; }
+
+a.site-caption {
+  color: #2cbec1; }
 
 .project {
   margin-top: 25px; }

@@ -19,7 +19,7 @@ body {
 }
 
 h2.project-titles {
-  color: #737272;
+  color: rgb(67, 67, 67);
   font-weight: 200;
   font-size: 21px;
   text-align: center;
@@ -133,8 +133,8 @@ nav {
 }
 
 a {
-  color: rgb(67, 67, 67);
-  text-decoration: none;
+color: rgb(67, 67, 67);  
+text-decoration: none;
 }
 
 a:hover {
@@ -150,7 +150,7 @@ a:hover {
 }
 
 .caption {
-  text-align: center;
+  vertical-align: middle;
   font-size: 16px;
   margin-top: 16px;
   font-weight: 400;
@@ -159,18 +159,16 @@ a:hover {
   color: rgb(74, 73, 73);
 }
 
-.sub-caption {
-  text-align: center;
+.description {
+  color: rgb(67, 67, 67);
   font-size: 14px;
+  line-height: 1.75;
+  margin-bottom: 34px;
   letter-spacing: .05em;
-  color: rgb(74, 73, 73);
 }
 
-.description {
-  color: #737272;
-  font-size: 14px;
-  line-height: 1;
-  margin-bottom: 34px;
+a.site-caption {
+  color: rgb(44, 190, 193);
 }
 
 .project {
@@ -222,7 +220,6 @@ a:hover {
 .site-footer a {
   font-size: 16px;
 }
-
 
 .profile {
   margin-bottom: 60px;
