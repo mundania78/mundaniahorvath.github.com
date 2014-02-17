@@ -234,7 +234,11 @@ a.site-caption {
     display: block;
     width: 22px;
     height: 2px;
-    background-color: black; } }
+    background-color: black; }
+
+  .site-footer .container {
+    padding: 0px 12px;
+    margin: 6px 0px 0px; } }
 @media (max-width: 480px) {
   .brand {
     margin: 24px 0px;
@@ -243,8 +247,4 @@ a.site-caption {
     text-align: center;
     letter-spacing: .05em;
     text-transform: uppercase;
-    z-index: 5; }
-
-  .site-footer .container {
-    padding: 0px 12px;
-    margin: 6px 0px 0px; } }
+    z-index: 5; } }

@@ -286,6 +286,11 @@ a.site-caption {
     height: 2px;
     background-color: black;
   }
+  
+  .site-footer .container {
+  padding: 0px 12px;
+  margin: 6px 0px 0px;
+  }
 }
 
 @media (max-width: 480px){
@@ -297,11 +302,6 @@ a.site-caption {
     letter-spacing: .05em;
     text-transform: uppercase;
     z-index: 5;
-  }
-  
-  .site-footer .container {
-  padding: 0px 12px;
-  margin: 6px 0px 0px;
   }
 }
 
