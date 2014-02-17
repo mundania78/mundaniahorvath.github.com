@@ -243,4 +243,8 @@ a.site-caption {
     text-align: center;
     letter-spacing: .05em;
     text-transform: uppercase;
-    z-index: 5; } }
+    z-index: 5; }
+
+  .site-footer .container {
+    padding: 0px 12px;
+    margin: 6px 0px 0px; } }
