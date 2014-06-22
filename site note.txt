@@ -1,0 +1,9 @@
+NOTE
+
+Switch href tags around, nested wrong!!!
+Fix columns
+
+example: <div class="col-sm-6 project">
+                    <a href="fpw"><img src="static/img/fpw_thumb.png" alt="Foundation for Pennsylvania Watersheds"></a>
+                    <p class="caption"><a href="fpw">Foundation for Pennsylvania Watersheds</a></p>
+                </div>

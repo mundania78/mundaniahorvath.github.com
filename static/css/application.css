@@ -33,6 +33,9 @@ p {
 img {
   max-width: 100%; }
 
+.img-responsive {
+  width: 100%; }
+
 .container {
   width: 100%;
   padding: 0px; }
@@ -198,9 +201,6 @@ a.site-caption {
   font-size: 24px; }
 
 @media (max-width: 768px) {
-  .project img {
-    width: 100%; }
-
   .navbar-toggle {
     margin-top: 24px;
     position: relative;
