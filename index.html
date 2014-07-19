@@ -11,7 +11,7 @@
 
     <script src="/static/lib/jquery/jquery.min.js"></script>
     <script src="/static/lib/bootstrap/3.0.2/js/bootstrap.min.js"></script>
-    <script src="/static/lib/js/doubletaptogo.js"></script>
+
     
     
     <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400' rel='stylesheet' type='text/css'>
@@ -25,12 +25,7 @@
         <script src="js/html5.js"></script>  
         <![endif]--> 
 
-        <script>
-          $( function()
-          {
-          $( '#nav li:has(ul)' ).doubleTapToGo();
-        });
-        </script>
+
 
       </head>
 
@@ -193,6 +188,16 @@
              </div>  
            </div>
          </footer>
+
+<script src="/static/lib/js/main.js"></script>
+  <script src="/static/lib/js/doubletaptogo.js"></script>
+  <script>
+    $( function()
+    {
+      $( '#nav li:has(ul)' ).doubleTapToGo();
+    });
+  </script>
+
          
   </body>
 </html>
