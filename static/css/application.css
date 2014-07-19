@@ -263,6 +263,7 @@ a.xproject img {
   transition: 1s linear all; }
 
 a.xproject .infoblock {
+  display: block;
   position: absolute;
   width: 100%;
   top: 0;
