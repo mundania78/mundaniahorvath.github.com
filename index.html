@@ -11,6 +11,7 @@
 
     <script src="/static/lib/jquery/jquery.min.js"></script>
     <script src="/static/lib/bootstrap/3.0.2/js/bootstrap.min.js"></script>
+    <script src="/static/lib/js/doubletaptogo.js"></script>
     
     
     <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400' rel='stylesheet' type='text/css'>
@@ -25,15 +26,8 @@
         <![endif]--> 
 
         <script>
-          $(document).ready(function() {
-              $('.hover').bind('touchstart', function(e) {
-                  e.preventDefault();
-                  $(this).toggleClass('hover_effect');
-              });
-          });
-
+          $( '#nav li:has(ul)' ).doubleTapToGo();
         </script>
-
 
       </head>
 
@@ -71,14 +65,45 @@
               
 
                   <a class="xproject col-sm-6 hover" href="http://www.google.com">
-                    
                     <img src="static/img/fpw_thumb.png" class="hover">
-                    <a src="http://www.bing.com" class="infoblock hover">
+                    <div class="infoblock hover">
                       <h3>Title of Piece</h3>
                       <p> > </p>
-                    </a>
-                    </a>  
+                    </div>
                   </a>
+
+                  <ul>
+                    <li>
+                      <a class="xproject col-sm-6" href="http://www.google.com">
+                        <ul>
+                          <li>
+                            <img src="static/img/fpw_thumb.png" >
+                            <div class="infoblock">
+                              <h3>Title of Piece</h3>
+                              <p> > </p>
+                            </div>
+                          <li>
+                        </ul>  
+                      </a>
+                    </li>
+
+                    <li>
+                      <a class="xproject col-sm-6" href="http://www.google.com">
+                        <ul>
+                          <li>
+                            <img src="static/img/fpw_thumb.png" >
+                            <div class="infoblock">
+                              <h3>Title of Piece</h3>
+                              <p> > </p>
+                            </div>
+                          <li>
+                        </ul>  
+                      </a>
+                    </li>
+                   
+                   </ul>
+
+
 
                   <div class="col-sm-6 project">
                     <a href="fpw"><img src="static/img/fpw_thumb.png" class="img-responsive"  alt="Foundation for Pennsylvania Watersheds"></a>
