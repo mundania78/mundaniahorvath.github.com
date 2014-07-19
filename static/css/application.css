@@ -248,13 +248,21 @@ a.site-caption {
     letter-spacing: .05em;
     text-transform: uppercase;
     z-index: 5; } }
-a.xproject {
-  display: inline-block;
-  position: relative;
-  background: #000;
+ul.xprojects_all {
+  list-style: none;
+  margin: 0;
   padding: 0; }
 
-a.xproject img {
+ul.xprojects_all a {
+  color: #fff; }
+
+ul.xprojects_all li {
+  background: #000;
+  position: relative;
+  margin: 0;
+  padding: 0; }
+
+ul.xprojects_all li img {
   display: block;
   width: 100%;
   height: auto;
@@ -262,42 +270,38 @@ a.xproject img {
   -webkit-transition: 1s linear all;
   transition: 1s linear all; }
 
-a.xproject .infoblock {
-  display: block;
-  position: absolute;
-  width: 100%;
-  top: 0;
-  left: 0;
-  opacity: 0;
-  -webkit-transition: 1s linear all;
-  transition: 1s linear all; }
-
-a.xproject:hover img,
-a.xproject.hover_effect img {
+ul.xprojects_all:hover li img {
   opacity: 0.2;
   -webkit-transition: 1s linear all;
   transition: 1s linear all; }
 
-a.xproject:hover .infoblock,
-a.xproject.hover_effect .infoblock {
-  opacity: 1;
-  -webkit-transition: 1s linear all;
-  transition: 1s linear all; }
+ul.xprojects_all ul {
+  display: none;
+  list-style: none; }
 
-a.xproject .infoblock h3 {
+ul.xprojects_all:hover ul {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%; }
+
+ul.xprojects_all:hover ul li {
+  display: inline-block;
+  position: relative;
+  padding: 0;
+  background: none; }
+
+li.xproject .infoblock h3 {
   color: #fff;
   font-weight: bold;
   font-size: 2em;
   padding: 1em;
   margin: 0; }
 
-a.xproject .infoblock p {
+li.xproject .infoblock p {
   color: #fff;
   font-weight: normal;
   font-size: 1em;
   padding: 1em;
   margin: 0; }
-
-.hover {
-  -webkit-user-select: none;
-  -webkit-touch-callout: none; }
