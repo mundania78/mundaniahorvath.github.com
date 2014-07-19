@@ -23,6 +23,18 @@
       <!--[if lt IE 9]>  
         <script src="js/html5.js"></script>  
         <![endif]--> 
+
+        <script>
+          $(document).ready(function() {
+              $('.hover').bind('touchstart touchend', function(e) {
+                  e.preventDefault();
+                  $(this).toggleClass('hover_effect');
+              });
+          });
+
+        </script>
+
+
       </head>
 
         
@@ -57,6 +69,15 @@
 
                 <div class="row">
               
+
+                  <a class="xproject col-sm-6 hover" href="#">
+                    <img src="static/img/fpw_thumb.png" class="hover">
+                    <div class="infoblock hover">
+                      <h3>Title of Piece</h3>
+                      <p> > </p>
+                    </div>
+                  </a>
+
                   <div class="col-sm-6 project">
                     <a href="fpw"><img src="static/img/fpw_thumb.png" class="img-responsive"  alt="Foundation for Pennsylvania Watersheds"></a>
                     <p class="caption"><a href="fpw">Foundation for Pennsylvania Watersheds</a></p>
@@ -66,7 +87,8 @@
                    <div class="col-sm-6 project">
                      <a href="pghdigs"><img src="static/img/house_thumb.png" class="img-responsive" alt="PGH / Digs: House Illustrations"></a>
                      <a href="pghdigs"><p class="caption">PGH / Digs: Illustrations</a></p>
-                     </div>
+                    </div>
+
                     
                      <div class="col-sm-6 project">
                        <a href="nautical"><img src="static/img/nautical_thumb.png" class="img-responsive" alt="Nautical Map Diagrams"></a>
