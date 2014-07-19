@@ -333,7 +333,7 @@ ul.xprojects_all li img {
   transition: 1s linear all;
 }
 
-ul.xprojects_all:hover li img {
+ul.xprojects_all li:hover img {
   opacity: 0.2;
   -webkit-transition: 1s linear all;
   transition: 1s linear all;
@@ -345,7 +345,7 @@ ul.xprojects_all ul {
 }
 
 
-ul.xprojects_all:hover ul {
+ul.xprojects_all li:hover ul {
   display: block;
   position: absolute;
   top: 0;
@@ -353,7 +353,7 @@ ul.xprojects_all:hover ul {
   width: 100%;
 }
 
-ul.xprojects_all:hover ul li {
+ul.xprojects_all li:hover ul li {
   display: inline-block;
   position: relative;
   padding: 0;
