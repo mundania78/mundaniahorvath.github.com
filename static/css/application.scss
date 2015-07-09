@@ -34,7 +34,7 @@ h2.project-titles {
 }
 
 .description {
-  color: #747272;
+  color: #000000;
   font-size: 20px;
   line-height: 1.75;
   margin-bottom: 26px;
@@ -196,18 +196,23 @@ a.site-caption {
   text-align: center;
 }
 
-.project_button_next .glyphicon {
-  font-weight: normal;
-  font-size: 34px;
-  color: #FFFFFF;
-  margin: 16px 62px;
+.project-navigation {
+  background-color: rgb(222, 238, 243);
+  min-height: 92px;
+  text-align: center; 
+  margin-top: 25px;
 }
 
-.project_button_previous .glyphicon {
-  font-weight: normal;
+.project-navigation .glyphicon {
+  font-weight: lighter;
+  margin-top: 25px;
   font-size: 34px;
-  color: #FFFFFF;
-  margin: 16px 62px;
+  color: rgb(193, 197, 197);
+}
+
+
+.social-media {
+ margin-top: 14px;
 }
 
 .site-footer {
