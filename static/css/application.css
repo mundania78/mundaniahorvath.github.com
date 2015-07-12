@@ -7,7 +7,7 @@ html {
  */
 body {
   font-family: 'Source Sans Pro', arial, helvetica, sans-serif;
-  background-color: #f2f2f2;
+  background-color: #FFFFFF;
   min-height: 100%;
   height: auto !important;
   height: 100%;
@@ -16,7 +16,7 @@ body {
   padding: 0; }
 
 body.homeowners-guide {
-  background-color: #DEDCDC; }
+  background-color: #FFFFFF; }
 
 h2.project-titles {
   color: #747272;
