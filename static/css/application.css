@@ -53,7 +53,7 @@ img {
   margin-left: 0px; }
 
 .site-header {
-  background-color: #eaeeef;
+  background-color: #FFFFFF;
   box-shadow: 0 0 5px #404040;
   left: 0;
   min-height: 60px;
@@ -101,7 +101,7 @@ nav {
   width: 25%; }
 
 .nav a {
-  color: #FFFFFF;
+  color: #4a4949;
   font-weight: 403;
   font-size: 16px;
   text-transform: uppercase;
