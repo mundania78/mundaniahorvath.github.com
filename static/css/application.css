@@ -137,8 +137,8 @@ a:hover {
 
 /* nav */
 .design-content {
-  margin-top: 115px;
-  margin-bottom: 30px; }
+  margin-bottom: 30px;
+  margin-top: 146px; }
 
 .caption {
   vertical-align: middle;
@@ -154,26 +154,20 @@ a.site-caption {
   color: #2cbec1; }
 
 .ind-slide {
-  margin-top: 62px; }
+  margin-top: 36px; }
 
 .project-navigation {
-  background-color: black;
-  min-height: 72px;
-  text-align: center; }
-
-.project-navigation a {
-  text-align: center; }
-
-.project-navigation {
-  background-color: #deeef3;
-  min-height: 92px;
-  text-align: center;
-  margin-top: 25px; }
+  min-height: 64px;
+  margin-top: 100px;
+  left: 0;
+  position: fixed;
+  top: 0;
+  z-index: 2; }
 
 .project-navigation .glyphicon {
   font-weight: lighter;
   margin-top: 25px;
-  font-size: 34px;
+  font-size: 21px;
   color: #c1c5c5; }
 
 .social-media {
@@ -210,10 +204,10 @@ ul.xprojects_all {
   padding: 0em; }
 
 ul.xprojects_all a {
-  color: #fff; }
+  color: #ffffff; }
 
 ul.xprojects_all li {
-  background: #000;
+  background: #423f3f;
   position: relative;
   margin: 0 1.75% 2.5% 1.75%;
   padding: 0em;
@@ -229,8 +223,8 @@ ul.xprojects_all li img {
 
 ul.xprojects_all li:hover img {
   opacity: 0.2;
-  -webkit-transition: 1s linear all;
-  transition: 1s linear all; }
+  -webkit-transition: .5s linear all;
+  transition: .5s linear all; }
 
 ul.xprojects_all ul {
   display: none;
@@ -254,10 +248,10 @@ ul.project {
   margin-bottom: 0em;
   padding-bottom: 0em; }
 
-li.xproject .infoblock h3 {
+li.xproject .infoblock h2 {
   color: #fff;
   font-weight: bold;
-  font-size: 2em;
+  font-size: 18px;
   padding: 1em;
   margin: 0em; }
 
@@ -316,8 +310,16 @@ li.xproject .infoblock p {
   .brand {
     margin: 24px 0px;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 18px;
     text-align: center;
     letter-spacing: .05em;
     text-transform: uppercase;
-    z-index: 5; } }
+    z-index: 5; }
+
+  .brand-container {
+    margin: 5px 45px 0px; }
+
+  .project-navigation .glyphicon {
+    font-weight: lighter;
+    margin-top: 10px;
+    font-size: 18px; } }
