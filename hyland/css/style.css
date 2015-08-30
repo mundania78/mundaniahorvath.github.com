@@ -103,8 +103,8 @@ SPECIAL CLASSES
 }
 .section,
 section {
-  padding-top: 82px;
-  padding-bottom: 100px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 .section-head {
   margin-bottom: 80px;
@@ -942,7 +942,7 @@ footer .section .col-md-3 a {
   color: #949494;
 }
 footer .section .col-md-3 a:hover {
-  color: #c62828;
+  color: #7fdcf2;
   text-decoration: none;
 }
 /*Normal display*/
