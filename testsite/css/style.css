@@ -11,7 +11,6 @@ body {
 	position: relative;
 	height: 100%;
 	font-size: 14px;
-	color: #363940;
 }
 body .body {
 	height: 100%;
@@ -42,11 +41,11 @@ body .body {
 
 /* Begin Fonts */
 body {
-	font-family: 'Roboto', Helvetica, Arial, sans-serif;
+	font-family: Helvetica, Arial, sans-serif;
 }
 h1, h2, h3, h4, h5, h6 {
-	font-family: 'Roboto', Helvetica, Arial, sans-serif;
-	font-weight: 700;
+	font-family: 'Titillium Web', Helvetica, Arial, sans-serif;
+	font-weight: 400;
 	margin-bottom: 10px;
 }
 h1 {
@@ -68,7 +67,7 @@ p {
 	font: 14px/1.5em "Roboto";
 }
 .navbar-nav > li > a {
-	font-family: "Lato", Helvetica, Arial, sans-serif;
+	font-family: Helvetica, Arial, sans-serif;
 }
 /* End Fonts */
 
@@ -137,11 +136,6 @@ section {
 	-ms-transition: all 0.2s ease-in-out;
 	transition: all 0.2s ease-in-out;
 }
-.navbar .container {
-	padding-left: 50px;
-	padding-right: 50px;
-}
-
 
 /* Navbar brand (logo) */
 .navbar-brand {
@@ -149,12 +143,8 @@ section {
 	background-position: left center;
 	width: 150px;
 	height: auto;
-	padding: 24px 0;
+	padding: 40px 26px;
 	text-indent: -99999px;
-	font-size: 24px;
-	font-weight: 600;
-	line-height: 20px;
-	letter-spacing: 4px;
 	-webkit-transition: all 0.2s ease-in-out;
 	-moz-transition: all 0.2s ease-in-out;
 	-o-transition: all 0.2s ease-in-out;
@@ -216,11 +206,11 @@ section {
 
 /* Navbar fixed */
 .navbar-fixed-top .container {
-	-webkit-transition: all 0.2s ease-in-out;
-	-moz-transition: all 0.2s ease-in-out;
-	-o-transition: all 0.2s ease-in-out;
-	-ms-transition: all 0.2s ease-in-out;
-	transition: all 0.2s ease-in-out;
+	    margin-top: 6px;
+}
+
+ul.nav.navbar-nav.navbar-right {
+	margin: 7px 0px;
 }
 
 .navbar-shrink {
@@ -275,7 +265,7 @@ section {
 #text-carousel-intro-section .caption {
 	position: relative;
 	top: 50%;
-	margin-top: -70px;
+	margin-top: 0px;
 }
 #text-carousel-intro-section .caption h1 {
 	margin-top: 0;
@@ -297,11 +287,7 @@ section {
 .rotate-box-1, .rotate-box-2 {
 	display: inline-block;
 	margin: 30px 0;
-	-webkit-transition: all 0.2s ease-in-out;
-	-moz-transition: all 0.2s ease-in-out;
-	-o-transition: all 0.2s ease-in-out;
-	-ms-transition: all 0.2s ease-in-out;
-	transition: all 0.2s ease-in-out;
+	
 }
 a.rotate-box-1, a.rotate-box-2 {
 	text-decoration: none;
@@ -315,7 +301,6 @@ a.rotate-box-1:hover, a.rotate-box-2:hover {
 	text-align: center;
 	margin-bottom: 15px;
 	margin-right: 25px;
-	margin-top: 10px;
 	float:left;
 	-webkit-transition: all 0.2s ease-in-out;
 	-moz-transition: all 0.2s ease-in-out;
@@ -329,10 +314,6 @@ a.rotate-box-1:hover, a.rotate-box-2:hover {
 	line-height: 45px;
 	color: #FFF !important;
 	font-size: 18px;
-	-webkit-transform: rotate(45deg);
-	-moz-transform: rotate(45deg);
-	-o-transform: rotate(45deg);
-	transform: rotate(45deg);
 }
 .rotate-box-1.square-icon .rotate-box-icon:after, .rotate-box-2.square-icon .rotate-box-icon:after {
 	content: "";
@@ -341,7 +322,6 @@ a.rotate-box-1:hover, a.rotate-box-2:hover {
 	right: 3px;
 	bottom: 3px;
 	left: 3px;
-	border: 2px solid #FFF;
 }
 .rotate-box-1:hover.square-icon .rotate-box-icon , .rotate-box-2:hover.square-icon .rotate-box-icon{
 	-webkit-transform: rotate(0deg);
@@ -355,10 +335,6 @@ a.rotate-box-1:hover, a.rotate-box-2:hover {
 	-o-transition: all 0.2s ease-in-out;
 	-ms-transition: all 0.2s ease-in-out;
 	transition: all 0.2s ease-in-out;
-	-webkit-transform: rotate(-45deg);
-	-moz-transform: rotate(-45deg);
-	-o-transform: rotate(-45deg);
-	transform: rotate(-45deg);
 }
 .rotate-box-1:hover.square-icon .rotate-box-icon .fa, .rotate-box-2:hover.square-icon .rotate-box-icon .fa{
 	-webkit-transform: rotate(0deg);
@@ -474,7 +450,7 @@ a.rotate-box-1:hover, a.rotate-box-2:hover {
 }
 
 .testimonial .cover {
-	background-color: rgba(0, 7, 11, 0.87);
+	background-color: rgba(83, 189, 78, 0.80); 
 }
 .testimonial-inner {
 	position: relative;
@@ -823,7 +799,7 @@ ul.social-list li a i {
 	font-weight: 400;
 }
 #contact-section .cover {
-	background-color: rgba(5, 8, 11, 0.93);
+	background-color: rgba(5, 8, 11, 0.75);
 }
 #contact-section .contact .contact-form {
 	margin-bottom: 40px;
@@ -841,12 +817,10 @@ ul.social-list li a i {
 #contact-section .contact .contact-form button:hover {
 	color: #fff;
 }
-#contact-section .contact .form-control {
-	background-color: rgba(255, 255, 255, 0.06);
-	border-color: #2A2A2A;
+#contact-section .contact .form-control { 
+	border-color: #FFFFFF;
 }
 #contact-section .contact .form-control:focus {
-	background-color: #171717;
 	box-shadow: none;
 }
 
@@ -869,18 +843,37 @@ ul.contact-address li i {
 /* ===== End contact ===== */
 
 
-/* ===== Begin footer ===== */
-.footer-top {
-	padding: 60px 0 35px;
+/*---------------------------------
+FOOTER
+---------------------------------*/
+.darkbg {
+  background: #212121;
+  color: #ffffff;
+  padding-top: 30px;
 }
-.footer-top .col-md-4 {
-	margin-bottom: 25px;
+footer {
+  float: left;
+  width: 100%;
 }
-.footer {
-	padding: 30px 0;
+footer h3 {
+  font-size: 1.3em;
+  margin-bottom: 25px;
 }
-.footer a{
-	text-decoration: none;
+footer ul {
+  list-style: none;
+  padding-left: 0;
+}
+footer ul li {
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #2e2e2e;
+}
+footer .section .col-md-3 a {
+  color: #949494;
+}
+footer .section .col-md-3 a:hover {
+  color: #c62828;
+  text-decoration: none;
 }
 
 /*Widget1: Useful Links*/
@@ -979,8 +972,9 @@ p.subtitle {
 	cursor: e-resize;
 }
 .owl-theme .owl-controls {
-	margin-top: 30px;
+	margin-top: 5px;
 }
+
 .owl-theme .owl-controls .owl-page span {
 	background: rgba(0, 0, 0, 0);
 	width: 14px;
@@ -1108,7 +1102,7 @@ p.subtitle {
 }
 .btn-lg-xl {
 	font-size: 1.4em;
-	padding: 10px 80px;
+	padding: 10px 56px;
 }
 
 
