@@ -41,6 +41,7 @@ h1 {
 h2 {
   text-transform: uppercase;
   margin-bottom: 20px;
+  color: #00586e;
 }
 p {
   line-height: 1.8em;
@@ -214,25 +215,16 @@ img {
   color: #55acee;
 }
 .social-icon.social_facebook_circle:hover {
-  color: #3b5998;
-}
-.social-icon.social_googleplus_circle:hover {
-  color: #dd4b39;
+  color: #55acee;
 }
 .social-icon.social_instagram_circle:hover {
-  color: #3f729b;
+  color: #55acee;
 }
-.social-icon.social_pinterest_circle:hover {
-  color: #cc2127;
-}
-.social-icon.social_dribbble_circle:hover {
-  color: #ea4c89;
-}
-.social-icon.social_tumblr_circle:hover {
-  color: #35465c;
+.social-icon.social_youtube_circle:hover {
+  color: #55acee;
 }
 .social-icon.social_linkedin_circle:hover {
-  color: #0976b4;
+  color: #55acee;
 }
 .item-meta {
   padding: 20px;
@@ -286,6 +278,7 @@ img {
 .lead {
   font-weight: lighter;
 }
+
 /*---------------------------------
 NAVBAR
 ---------------------------------*/
@@ -317,6 +310,10 @@ NAVBAR
 
 .navbar>.container-fluid .navbar-brand {
   margin-left: 0px;
+}
+
+.navbar-right {
+  margin-right: 0px;
 }
 .navbar a {
   font-weight: bold;
@@ -455,6 +452,7 @@ NAVBAR
 .hero-btn a:focus {
   text-decoration: none;
 }
+
 /*---------------------------------
 OVERVIEW
 ---------------------------------*/
@@ -463,8 +461,9 @@ OVERVIEW
   width: 100%;
 }
 #overview .section {
-  padding-bottom: 0;
+  padding-bottom: 25px;
 }
+
 /*---------------------------------
 FEATURES
 ---------------------------------*/
@@ -473,8 +472,9 @@ FEATURES
   width: 100%;
 }
 #features .section.container {
-  padding-bottom: 20px;
+  padding-bottom: 36px;
 }
+
 /*---------------------------------
 FUN FACT
 ---------------------------------*/
@@ -495,12 +495,10 @@ FUN FACT
   font-size: 12px;
   letter-spacing: 1px;
 }
-
 .video {
   width: 100%    !important;
   height: auto   !important;
 }
-
 .videoWrapper {
   position: relative;
   padding-bottom: 56.25%; /* 16:9 */
@@ -514,45 +512,7 @@ FUN FACT
   width: 100%;
   height: 100%;
 }
-/*---------------------------------
-PRODUCTS
----------------------------------*/
-#products {
-  float: left;
-  width: 100%;
-}
-#products .container.row {
-  margin: 0 -25px;
-}
-#products .item {
-  overflow: hidden;
-}
-#products .item .itemhover {
-  position: absolute;
-  padding: 32% 19%;
-  background: rgba(255, 255, 255, 0.75);
-  opacity: 0;
-  -webkit-transition: all 300ms;
-  transition: all 300ms;
-  width: 100%;
-  height: 100%;
-}
-#products .item .itemhover:hover {
-  opacity: 1;
-  -webkit-transition: all 300ms;
-  transition: all 300ms;
-}
-#products .item-meta a {
-  color: #212121;
-  text-decoration: none;
-}
-#products .item-meta a:hover {
-  color: #c62828;
-}
-#products .item-meta .productRating {
-  margin-bottom: 30px;
-  color: #c62828;
-}
+
 /*---------------------------------
 SERVICES
 ---------------------------------*/
@@ -566,6 +526,7 @@ SERVICES
   border-radius: 50%;
   color: #ffffff;
 }
+
 /*---------------------------------
 RIBBON
 ---------------------------------*/
@@ -584,6 +545,7 @@ RIBBON
   font-size: 1.3em;
   font-weight: bold;
 }
+
 /*---------------------------------
 TEAM
 ---------------------------------*/
@@ -613,6 +575,7 @@ TEAM
   text-transform: uppercase;
   color: #c62828;
 }
+
 /*---------------------------------
 TWEETS
 ---------------------------------*/
@@ -706,7 +669,6 @@ TWEETS
   z-index: 12;
   border-top:0;
 }
-/*.portfolio_single_content:hover div+div{bottom: 0;}*/
 
 .portfolio_single_content div{
   position:absolute;
@@ -800,9 +762,11 @@ PORTFOLIO
 #portfolio #Container .mix .folio-hover .btn.btn-default {
   padding: 15px;
 }
+
 /*---------------------------------
 BLOG
 ---------------------------------*/
+
 #blog {
   float: left;
   width: 100%;
@@ -854,15 +818,17 @@ MOGA CTA
 #moga-cta .head-icon {
   margin-bottom: 40px;
 }
+
 /*---------------------------------
 CONTACTS
 ---------------------------------*/
+
 #contact {
   float: left;
   width: 100%;
 }
 #contact .contactform {
-  padding: 60px 60px 30px 0;
+  padding: 60px 60px 30px 20px;
   background: #ffffff;
 }
 #contact .form-group {
@@ -901,6 +867,7 @@ CONTACTS
 #contact .contact-address h3 {
   margin-bottom: 20px;
 }
+
 /*---------------------------------
 CLIENTS
 ---------------------------------*/
@@ -918,12 +885,16 @@ CLIENTS
 #clients .client-logo:hover {
   opacity: .8;
 }
+
 /*---------------------------------
 FOOTER
 ---------------------------------*/
 footer {
   float: left;
   width: 100%;
+}
+footer h2 {
+  color: #fff;
 }
 footer h3 {
   font-size: 1.3em;
@@ -945,6 +916,11 @@ footer .section .col-md-3 a:hover {
   color: #7fdcf2;
   text-decoration: none;
 }
+
+/*---------------------------------
+MEDIA QUERIES
+---------------------------------*/
+
 /*Normal display*/
 @media (min-width: 1366px) {
   .container {
