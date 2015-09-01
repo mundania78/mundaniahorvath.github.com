@@ -363,6 +363,7 @@ NAVBAR
   color: #53bd4e;
   background-color: #ffffff;
 }
+
 #slider {
   color: #fff;
   overflow: hidden;
@@ -497,26 +498,6 @@ FEATURES
   padding-bottom: 36px;
 }
 
-/*---------------------------------
-FUN FACT
----------------------------------*/
-#funFact {
-  float: left;
-  width: 100%;
-  background: url(../img/funfact-bg.gif) fixed;
-  text-transform: uppercase;
-}
-#funFact h3 {
-  font-size: 35px;
-  letter-spacing: 5px;
-}
-#funFact p {
-  font-family: 'Montserrat', sans-serif;
-  text-transform: uppercase;
-  font-weight: 400;
-  font-size: 12px;
-  letter-spacing: 1px;
-}
 .video {
   width: 100%    !important;
   height: auto   !important;
@@ -750,9 +731,8 @@ MEDIA QUERIES
   #funFact .col-md-3.item-style-4 {
     width: 100%;
   }
-
   .navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
-    margin-left: 15px;
+    margin-left: 18px;
   }
   #products .col-md-3.item-style-2 {
     width: 48%;
