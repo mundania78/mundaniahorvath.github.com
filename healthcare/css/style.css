@@ -305,11 +305,11 @@ NAVBAR
 }
 
 .navbar>.container-fluid .navbar-brand {
-  margin-left: 24px;
+  margin-left: 30px;
 }
 
 .navbar-right {
-  margin-right: 18px;
+  margin-right: 24px;
 }
 .navbar a {
   font-weight: bold;
@@ -321,6 +321,7 @@ NAVBAR
 .navbar-default .navbar-toggle {
   border-color: #00cbee;
   background: rgba(0, 203, 238, 0.9);
+  margin-right: 36px;
 }
 .navbar-default .navbar-toggle .icon-bar {
   background: #fff;
@@ -475,6 +476,11 @@ HEALTHCARE
 p.healthcare {
    border-bottom: 2px solid #00576f;
    padding-bottom: 16px;
+}
+
+h3 .healthcare 
+  .active > a, .active > a:hover, .active > a:focus {
+  color: read;
 }
 /*---------------------------------
 OVERVIEW
@@ -718,6 +724,10 @@ MEDIA QUERIES
 }
 /*Wider display*/
 @media (min-width: 1680px) {
+.navbar-header, .navbar-collapse {
+   margin-left: 0px;
+    margin-right: 0px;
+  }
   .container {
     width: 1600px;
   }
@@ -731,13 +741,11 @@ MEDIA QUERIES
   #funFact .col-md-3.item-style-4 {
     width: 100%;
   }
-  .navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
-    margin-left: 18px;
+  .container-fluid .navbar-brand {
+    margin-left: 26px;
+    margin-right: 45px;
   }
-  .container-fluid>.navbar-collapse {
-    margin-right: 0px;
-    margin-left: 0px;
-  }
+
   #ribbon .item-style-2 {
     text-align: center;
   }
