@@ -1366,7 +1366,7 @@ aside .thumb figure {
 			box-shadow: 0 10px 10px rgba(0,0,0,0.1);
 }
 .navbar-collapse.collapse.stuck .navbar-brand img {
-	max-height: 30px;
+	max-height: 25px;
 }
 .navbar-nav {
 	float: none;
