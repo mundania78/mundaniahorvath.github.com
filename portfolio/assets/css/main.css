@@ -6083,11 +6083,11 @@ a.changecolor {
 }
 
 @-skrollr-keyframes shrink-logo {
-	40 {
+	30 {
 		max-height: 30px;
 	}
 
 	300 {
-		max-height: 40px;
+		max-height: 30px;
 	}
 }
