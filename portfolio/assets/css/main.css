@@ -6084,7 +6084,7 @@ a.changecolor {
 
 @-skrollr-keyframes shrink-logo {
 	30 {
-		max-height: 40px;
+		max-height: 30px;
 	}
 
 	300 {
