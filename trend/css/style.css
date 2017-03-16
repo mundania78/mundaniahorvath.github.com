@@ -1085,7 +1085,7 @@ height:47px;
 footer {
 	background: #282828 url(../images/footer-bg.png) no-repeat bottom right;
 	background-size: 80%;
-	padding: 80px 0 140px;
+	padding: 80px 0 80px;
 }
 
 .hidden-heading {
@@ -2465,7 +2465,7 @@ margin-left:85px;
 }
 
 .padding90 {
-	padding: 90px 0 !important;
+	padding: 40px 0 !important;
 }
 
 .padding100 {
@@ -3432,7 +3432,7 @@ h2.title {
 
 .hq-info p {
 	font-size: 18px;
-	color: #fff;
+	color: #555;
 	font-weight: 300;
 	font-style: italic;
 }
@@ -3444,7 +3444,7 @@ h2.title {
 }
 
 .hq-info span {
-	color: #fff;
+	color: #555;
 	margin-left: 75px;
 	display: table;
 	position: relative;
@@ -3496,7 +3496,6 @@ footer p {
 }
 
 .c-info {
-	background: transparent url("../images/map.png") no-repeat scroll left bottom / 55% auto;
 	background-position: 0 100%;
 	overflow: visible;
 	padding-bottom: 78px;
