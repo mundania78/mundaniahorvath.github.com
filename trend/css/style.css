@@ -57,6 +57,14 @@ p.descript {
 	color: #878787;
 }
 
+p.intro {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-size: 14px;
+	line-height: 24px;
+	color: #878787;
+}
+
 header p {
 	padding-top: 45px;
     font-size: 21px;
