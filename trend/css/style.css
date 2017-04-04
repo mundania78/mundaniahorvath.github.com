@@ -8,8 +8,7 @@ body {
 }
 
 body {
-	font-family: Open Sans,'Helvetica Neue',Arial,sans-serif;
-	background:#f2f2f2 url("../images/pattern/pattern11.png") fixed; 
+	font-family: 'Open Sans', sans-serif;
 }
 
 a {
@@ -72,6 +71,7 @@ header p {
 }
 
 ul, li {
+	font-family: 'Open Sans', sans-serif;
 	list-style: none;
 	padding: 0px;
 	margin: 0px;
@@ -1109,9 +1109,8 @@ height:47px;
 }
 
 footer {
-	background: #282828 url(../images/footer-bg.png) no-repeat bottom right;
-	background-size: 80%;
-	padding: 80px 0 80px;
+	background: #282828;
+	padding: 50px 0 90px;
 }
 
 .hidden-heading {
@@ -3523,7 +3522,7 @@ footer p {
 .c-info {
 	background-position: 0 100%;
 	overflow: visible;
-	padding-bottom: 78px;
+	padding-bottom: 56px;
 }
 
 .c-info li i {
@@ -3603,6 +3602,7 @@ transition:.4s;
 	text-align: center;
 	margin-right: 12px;
 	margin-top: 8px;
+	margin-bottom: 36px;
 	font-size: 14px;
 }
 
@@ -4373,7 +4373,7 @@ transition:.4s;
 }
 
 .nav-tabs li i {
-	color: #006bb7;
+	color: #00b4b7;
 	margin-right: 10px;
 }
 
