@@ -13,7 +13,7 @@ body {
 }
 
 a {
-	color: #006bb7;
+	color: #08aea8;
 	transition: .4s;
 }
 
@@ -3457,10 +3457,9 @@ h2.title {
 }
 
 .hq-info p {
-	font-size: 18px;
+	font-size: 16px;
 	color: #555;
 	font-weight: 300;
-	font-style: italic;
 }
 
 .hq-info img {
@@ -3595,24 +3594,25 @@ transition:.4s;
 
 .f-social a {
 	border: 1px solid #444;
-	width: 25px;
-	height: 25px;
+	width: 30px;
+	height: 30px;
 	border-radius: 50%;
 	display: inline-block;
 	color: #777;
-	line-height: 23px;
+	line-height: 26px;
 	text-align: center;
-	margin-right: 3px;
-	font-size: 11px;
+	margin-right: 12px;
+	margin-top: 8px;
+	font-size: 14px;
 }
 
 .f-social a:hover {
 	background: #444;
 	color: #999;
-	line-height: 23px;
+	line-height: 26px;
 	text-align: center;
-	margin-right: 3px;
-	font-size: 11px;
+	margin-right: 12px;
+	font-size: 14px;
 }
 
 .footer-top {
