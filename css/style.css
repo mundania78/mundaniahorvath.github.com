@@ -3051,6 +3051,7 @@ a.readmore ,
 	position: relative;
 }
 
+
 .overlay-folio {
 	position: absolute;
 	top: 0;
@@ -3130,6 +3131,7 @@ a.readmore ,
 	transition: .5s;
 	visibility: visible;
 }
+
 
 .project-info {
 	padding: 20px;
