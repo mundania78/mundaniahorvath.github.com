@@ -42,9 +42,10 @@ h3 {
 }
 
 p {
+	font-family: "PT Serif",Georgia,serif;
 	margin-bottom: 17px;
-	font-size: 13px;
-	line-height: 23px;
+	font-size: 18px;
+	line-height: 30px;
 	color: #555;
 }
 
@@ -999,9 +1000,9 @@ ul, li {
 }
 
 .page_header_parallax {
-	background-color: #59dacd;
+	background-color: #f2f2f2;
 	background-size: cover;
-	padding: 50px 0 80px;
+	padding: 50px 0 50px;
 }
 
 .page_header_parallax_buyerquest {
@@ -1049,11 +1050,11 @@ ul, li {
 .page_header h3 {
 	font-family: 'Open Sans', sans-serif;
 	margin: 0;
-	color: #Fff;
-	font-size: 30px;
+	color: #727c7c;
+	font-size: 36px;
 	letter-spacing: 1px;
-	line-height: 40px;
-	font-weight:100;
+	line-height: 46px;
+	font-weight:300;
 }
 
 .page_header h3 span {
@@ -3511,6 +3512,7 @@ h2.title {
 
 footer h4 {
 	font-size: 15px;
+	letter-spacing: 2px;
 	text-transform: uppercase;
 	margin: 0px 0px 25px;
 	color: #fff;
