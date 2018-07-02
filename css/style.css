@@ -1129,7 +1129,8 @@ footer {
 }
 
 .footer-bottom p {
-	color: #666;
+	font-size: 14px;
+	color: #7b7b7b;
 	padding-top: 5px;
 	margin: 0;
 }
@@ -3521,6 +3522,7 @@ footer h4 {
 
 footer p {
 	font-size: 14px;
+	line-height: 24px;
 }
 
 .c-info {
