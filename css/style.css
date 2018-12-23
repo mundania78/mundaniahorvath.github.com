@@ -263,7 +263,8 @@ ul, li {
 #header-main .navbar-nav > li > a {
 	color: #262626;
 	padding: 35px 18px 34px;
-	font-size: 14px;
+	font-size: 16px;
+	font-weight: 700;
 	overflow: hidden;
 	position: relative;
 	z-index: 99999;
