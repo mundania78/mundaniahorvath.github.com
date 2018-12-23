@@ -53,7 +53,7 @@ p.descript {
 	margin-top: 20px;
 	margin-bottom: 20px;
 	font-size: 21px;
-	line-height: 35px;
+	line-height: 36px;
 	color: #555;
 }
 
@@ -386,7 +386,7 @@ ul, li {
 }
 
 .inner-content {
-	padding: 45px 0;
+	padding: 0px 0;
 }
 
 .section-about h3 {
